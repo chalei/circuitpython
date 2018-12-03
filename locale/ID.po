@@ -19,217 +19,221 @@ msgstr ""
 
 #: extmod/machine_i2c.c:299
 msgid "invalid I2C peripheral"
-msgstr ""
+msgstr "perangkat I2C tidak valid"
 
 #: extmod/machine_i2c.c:340 extmod/machine_i2c.c:354 extmod/machine_i2c.c:368
 #: extmod/machine_i2c.c:392
 msgid "I2C operation not supported"
-msgstr ""
+msgstr "operasi I2C tidak didukung"
 
 #: extmod/machine_mem.c:45 ports/unix/modmachine.c:53
 #, c-format
 msgid "address %08x is not aligned to %d bytes"
-msgstr ""
+msgstr "alamat %08x tidak selaras dengan %d bytes"
 
 #: extmod/machine_spi.c:57
 msgid "invalid SPI peripheral"
-msgstr ""
+msgstr "perangkat SPI tidak valid"
 
 #: extmod/machine_spi.c:124
 msgid "buffers must be the same length"
-msgstr ""
+msgstr "buffers harus mempunyai panjang yang sama"
 
 #: extmod/machine_spi.c:207
 msgid "bits must be 8"
-msgstr ""
+msgstr "bits harus memilki nilai 8"
 
 #: extmod/machine_spi.c:210
 msgid "firstbit must be MSB"
-msgstr ""
+msgstr "bit pertama(firstbit) harus berupa MSB"
 
 #: extmod/machine_spi.c:215
 msgid "must specify all of sck/mosi/miso"
-msgstr ""
+msgstr "harus menentukan semua pin sck/mosi/miso"
 
 #: extmod/modframebuf.c:299
 msgid "invalid format"
-msgstr ""
+msgstr "format tidak valid"
 
 #: extmod/modubinascii.c:38 extmod/moduhashlib.c:102
 msgid "a bytes-like object is required"
-msgstr ""
+msgstr "sebuah objek menyerupai byte (bytes-like) dibutuhkan"
 
 #: extmod/modubinascii.c:90
 msgid "odd-length string"
-msgstr ""
+msgstr "panjang data string memiliki keganjilan (odd-length)"
 
 #: extmod/modubinascii.c:101
 msgid "non-hex digit found"
-msgstr ""
+msgstr "digit non-hex ditemukan"
 
 #: extmod/modubinascii.c:169
 msgid "incorrect padding"
-msgstr ""
+msgstr "lapisan (padding) tidak benar"
 
 #: extmod/moductypes.c:122
 msgid "syntax error in uctypes descriptor"
-msgstr ""
+msgstr "sintaksis error pada pendeskripsi uctypes"
 
 #: extmod/moductypes.c:219
 msgid "Cannot unambiguously get sizeof scalar"
-msgstr ""
+msgstr "tidak dapat mendapatkan ukuran scalar secara tidak ambigu"
 
 #: extmod/moductypes.c:397
 msgid "struct: no fields"
-msgstr ""
+msgstr "struct: tidak ada fields"
 
 #: extmod/moductypes.c:530
 msgid "struct: cannot index"
-msgstr ""
+msgstr "struct: tidak bisa melakukan index"
 
 #: extmod/moductypes.c:544
 msgid "struct: index out of range"
-msgstr ""
+msgstr "struct: index keluar dari jangkauan"
 
 #: extmod/moduheapq.c:38
 msgid "heap must be a list"
-msgstr ""
+msgstr "heap harus berupa sebuah list"
 
 #: extmod/moduheapq.c:86 extmod/modutimeq.c:147 extmod/modutimeq.c:172
 msgid "empty heap"
-msgstr ""
+msgstr "heap kosong"
 
 #: extmod/modujson.c:281
 msgid "syntax error in JSON"
-msgstr ""
+msgstr "sintaksis error pada JSON"
 
 #: extmod/modure.c:161
 msgid "Splitting with sub-captures"
-msgstr ""
+msgstr "Memisahkan dengan menggunakan sub-captures"
 
 #: extmod/modure.c:207
 msgid "Error in regex"
-msgstr ""
+msgstr "Error pada regex"
 
 #: extmod/modussl_axtls.c:81
 msgid "invalid key"
-msgstr ""
+msgstr "key tidak valid"
 
 #: extmod/modussl_axtls.c:87
 msgid "invalid cert"
-msgstr ""
+msgstr "cert tidak valid"
 
 #: extmod/modutimeq.c:131
 msgid "queue overflow"
-msgstr ""
+msgstr "antrian meluap (overflow)"
 
 #: extmod/moduzlib.c:98
 msgid "compression header"
-msgstr ""
+msgstr "kompresi header"
 
 #: extmod/uos_dupterm.c:120
 msgid "invalid dupterm index"
-msgstr ""
+msgstr "indeks dupterm tidak valid"
 
 #: extmod/vfs_fat.c:426 py/moduerrno.c:150
 msgid "Read-only filesystem"
-msgstr ""
+msgstr "sistem file (filesystem) bersifat Read-only"
 
 #: extmod/vfs_posix_file.c:48 ports/unix/file.c:50 py/objstringio.c:43
 msgid "I/O operation on closed file"
-msgstr ""
+msgstr "operasi I/O pada file tertutup"
 
 #: lib/embed/abort_.c:8
 msgid "abort() called"
-msgstr ""
+msgstr "abort() dipanggil"
 
 #: lib/netutils/netutils.c:83
 msgid "invalid arguments"
-msgstr ""
+msgstr "argumen-argumen tidak valid"
 
 #: lib/utils/pyexec.c:97 py/builtinimport.c:251
 msgid "script compilation not supported"
-msgstr ""
+msgstr "kompilasi script tidak didukung"
 
 #: main.c:154
 msgid " output:\n"
-msgstr ""
+msgstr "output:\n"
 
 #: main.c:168 main.c:241
 msgid ""
 "Auto-reload is on. Simply save files over USB to run them or enter REPL to "
 "disable.\n"
-msgstr ""
+msgstr "Auto-reload aktif. Silahkan simpan data-data (files) melalui USB untuk menjalankannya atau masuk ke REPL untuk"
+"menonaktifkan.\n"
 
 #: main.c:170
 msgid "Running in safe mode! Auto-reload is off.\n"
-msgstr ""
+msgstr "Berjalan di mode aman(safe mode)! Auto-reload tidak aktif.\n"
 
 #: main.c:172 main.c:243
 msgid "Auto-reload is off.\n"
-msgstr ""
+msgstr "Auto-reload tidak aktif.\n"
 
 #: main.c:186
 msgid "Running in safe mode! Not running saved code.\n"
-msgstr ""
+msgstr "Berjalan di mode aman(safe mode)! tidak menjalankan kode yang tersimpan.\n"
 
 #: main.c:202
 msgid "WARNING: Your code filename has two extensions\n"
-msgstr ""
+msgstr "PERINGATAN: Nama file kode anda mempunyai dua ekstensi\n"
 
 #: main.c:250
 msgid "You requested starting safe mode by "
-msgstr ""
+msgstr "Anda mengajukan untuk memulai mode aman pada (safe mode) pada "
 
 #: main.c:253
 msgid "To exit, please reset the board without "
-msgstr ""
+msgstr "Untuk keluar, silahkan reset board tanpa "
 
 #: main.c:260
 msgid ""
 "You are running in safe mode which means something really bad happened.\n"
-msgstr ""
+msgstr "Anda sedang menjalankan mode aman (safe mode) yang berarti sesuatu yang sangat buruk telah terjadi"
 
 #: main.c:262
 msgid "Looks like our core CircuitPython code crashed hard. Whoops!\n"
-msgstr ""
+msgstr "Sepertinya inti kode CircuitPython kita crash dengan sangat keras. Ups!\n"
 
 #: main.c:263
 msgid "Please file an issue here with the contents of your CIRCUITPY drive:\n"
-msgstr ""
+msgstr "Silahkan taruh masalah disini dengan isi dari CIRCUITPY drive: anda \n""
 
 #: main.c:266
 msgid ""
 "The microcontroller's power dipped. Please make sure your power supply "
 "provides\n"
-msgstr ""
+msgstr "Tegangan dari mikrokontroler turun atau mati. Pastikan sumber tegangan "
+"memberikan daya\n"
 
 #: main.c:267
 msgid ""
 "enough power for the whole circuit and press reset (after ejecting "
 "CIRCUITPY).\n"
 msgstr ""
+"tegangan cukup untuk semua sirkuit dan tekan reset (setelah mencabut "
+"CIRCUITPY).\n"
 
 #: main.c:271
 msgid "Press any key to enter the REPL. Use CTRL-D to reload."
-msgstr ""
+msgstr "Tekan tombol apa saja untuk masuk ke dalam REPL. Gunakan CTRL+D untuk reset (Reload)"
 
 #: main.c:429
 msgid "soft reboot\n"
-msgstr ""
+msgstr "memulai ulang software(soft reboot)\n"
 
 #: ports/atmel-samd/audio_dma.c:209
 #: ports/atmel-samd/common-hal/audiobusio/PDMIn.c:361
 msgid "All sync event channels in use"
-msgstr ""
+msgstr "Semua channel event yang disinkronisasi sedang digunakan"
 
 #: ports/atmel-samd/bindings/samd/Clock.c:135
 msgid "calibration is read only"
-msgstr ""
+msgstr "kalibrasi adalah read only"
 
 #: ports/atmel-samd/bindings/samd/Clock.c:137
 msgid "calibration is out of range"
-msgstr ""
+msgstr "kalibrasi keluar dari jangkauan"
 
 #: ports/atmel-samd/board_busses.c:59 ports/nrf/board_busses.c:39
 msgid "No default I2C bus"
