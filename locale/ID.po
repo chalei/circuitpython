@@ -189,7 +189,7 @@ msgstr "Untuk keluar, silahkan reset board tanpa "
 #: main.c:260
 msgid ""
 "You are running in safe mode which means something really bad happened.\n"
-msgstr "Anda sedang menjalankan mode aman (safe mode) yang berarti sesuatu yang sangat buruk telah terjadi"
+msgstr "Anda sedang menjalankan mode aman (safe mode) yang berarti sesuatu yang sangat buruk telah terjadi.\n"
 
 #: main.c:262
 msgid "Looks like our core CircuitPython code crashed hard. Whoops!\n"
