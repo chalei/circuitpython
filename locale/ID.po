@@ -720,12 +720,12 @@ msgstr "Gagal untuk membaca nilai atribut, status: 0x%08lX"
 #: ports/nrf/common-hal/bleio/Device.c:307
 #, c-format
 msgid "Failed to acquire mutex, status: 0x%08lX"
-msgstr ""
+msgstr "Gagal untuk mendapatkan mutex, status: 0x%08lX"
 
 #: ports/nrf/common-hal/bleio/Characteristic.c:126
 #, c-format
 msgid "Failed to write attribute value, status: 0x%08lX"
-msgstr ""
+msgstr "Gagal untuk menulis nilai atribut, status: 0x%08lX"
 
 #: ports/nrf/common-hal/bleio/Characteristic.c:138
 #: ports/nrf/common-hal/bleio/Device.c:284
@@ -734,95 +734,95 @@ msgstr ""
 #: ports/nrf/common-hal/bleio/Device.c:391
 #, c-format
 msgid "Failed to release mutex, status: 0x%08lX"
-msgstr ""
+msgstr "Gagal untuk melepaskan mutex, status: 0x%08lX"
 
 #: ports/nrf/common-hal/bleio/Device.c:81
 #: ports/nrf/common-hal/bleio/Device.c:114
 msgid "Can not fit data into the advertisment packet"
-msgstr ""
+msgstr "Tidak bisa menyesuaikan data ke dalam paket advertisment"
 
 #: ports/nrf/common-hal/bleio/Device.c:266
 #, c-format
-msgid "Failed to discover serivices, status: 0x%08lX"
-msgstr ""
+msgid "Failed to discover services, status: 0x%08lX"
+msgstr "Gagal untuk menemukan layanan, status: 0x%08lX"
 
 #: ports/nrf/common-hal/bleio/Device.c:403
 #: ports/nrf/common-hal/bleio/Scanner.c:76
 #, c-format
 msgid "Failed to continue scanning, status: 0x%0xlX"
-msgstr ""
+msgstr "Gagal untuk melanjutkan scanning, status: 0x%08lX"
 
 #: ports/nrf/common-hal/bleio/Device.c:436
 #, c-format
 msgid "Failed to connect, status: 0x%08lX"
-msgstr ""
+msgstr "Gagal untuk menyambungkan, status: 0x%08lX"
 
 #: ports/nrf/common-hal/bleio/Device.c:513
 #, c-format
 msgid "Failed to add service, status: 0x%08lX"
-msgstr ""
+msgstr "Gagal untuk menambahkan layanan, status: 0x%08lX"
 
 #: ports/nrf/common-hal/bleio/Device.c:531
 #, c-format
 msgid "Failed to start advertisment, status: 0x%08lX"
-msgstr ""
+msgstr "Gagal untuk memulai advertisement, status: 0x%08lX"
 
 #: ports/nrf/common-hal/bleio/Device.c:549
 #, c-format
 msgid "Failed to stop advertisment, status: 0x%08lX"
-msgstr ""
+msgstr "Gagal untuk memberhentikan advertisement, status: 0x%08lX"
 
 #: ports/nrf/common-hal/bleio/Device.c:575
 #: ports/nrf/common-hal/bleio/Scanner.c:103
 #, c-format
 msgid "Failed to start scanning, status: 0x%0xlX"
-msgstr ""
+msgstr "Gagal untuk melakukan scanning, status: 0x%08lX"
 
 #: ports/nrf/common-hal/bleio/Device.c:592
 #, c-format
 msgid "Failed to create mutex, status: 0x%0xlX"
-msgstr ""
+msgstr "Gagal untuk membuat mutex, status: 0x%08lX"
 
 #: ports/nrf/common-hal/bleio/Service.c:83
 #, c-format
 msgid "Failed to add characteristic, status: 0x%08lX"
-msgstr ""
+msgstr "Gagal untuk menambahkan karakteristik, status: 0x%08lX"
 
 #: ports/nrf/common-hal/bleio/UUID.c:97
 #, c-format
 msgid "Failed to add Vendor Specific UUID, status: 0x%08lX"
-msgstr ""
+msgstr "Gagal untuk menambahkan Vendor Spesific UUID, status: 0x%08lX"
 
 #: ports/nrf/common-hal/bleio/UUID.c:102
 msgid "Invalid UUID string length"
-msgstr ""
+msgstr "Panjang string UUID tidak valid"
 
 #: ports/nrf/common-hal/bleio/UUID.c:109
 #: shared-bindings/bleio/Characteristic.c:125
 #: shared-bindings/bleio/Service.c:105
 msgid "Invalid UUID parameter"
-msgstr ""
+msgstr "Parameter UUID tidak valid"
 
 #: ports/nrf/common-hal/busio/I2C.c:96
 msgid "All I2C peripherals are in use"
-msgstr ""
+msgstr "Semua perangkat I2C sedang digunakan"
 
 #: ports/nrf/common-hal/busio/SPI.c:133
 msgid "All SPI peripherals are in use"
-msgstr ""
+msgstr "Semua perangkat SPI sedang digunakan"
 
 #: ports/nrf/common-hal/busio/UART.c:48
 #, c-format
 msgid "error = 0x%08lX"
-msgstr ""
+msgstr "error = 0x%08lX"
 
 #: ports/nrf/common-hal/busio/UART.c:86
 msgid "Invalid buffer size"
-msgstr ""
+msgstr "Ukuran buffer tidak valid"
 
 #: ports/nrf/common-hal/busio/UART.c:90
 msgid "Odd parity is not supported"
-msgstr ""
+msgstr "Parity ganjil tidak didukung"
 
 #: ports/nrf/common-hal/busio/UART.c:322 ports/nrf/common-hal/busio/UART.c:326
 #: ports/nrf/common-hal/busio/UART.c:331 ports/nrf/common-hal/busio/UART.c:336
@@ -830,121 +830,121 @@ msgstr ""
 #: ports/nrf/common-hal/busio/UART.c:352 ports/nrf/common-hal/busio/UART.c:356
 #: ports/nrf/common-hal/busio/UART.c:364
 msgid "busio.UART not available"
-msgstr ""
+msgstr "busio.UART tidak tersedia"
 
 #: ports/nrf/common-hal/microcontroller/Processor.c:49
 #, c-format
 msgid "Can not get temperature. status: 0x%02x"
-msgstr ""
+msgstr "Tidak bisa mendapatkan temperatur. status: 0x%02x"
 
 #: ports/nrf/common-hal/pulseio/PWMOut.c:161
 msgid "All PWM peripherals are in use"
-msgstr ""
+msgstr "Semua perangkat PWM sedang digunakan"
 
 #: ports/unix/modffi.c:138
 msgid "Unknown type"
-msgstr ""
+msgstr "Tipe tidak diketahui"
 
 #: ports/unix/modffi.c:207 ports/unix/modffi.c:265
 msgid "Error in ffi_prep_cif"
-msgstr ""
+msgstr "Errod pada ffi_prep_cif"
 
 #: ports/unix/modffi.c:270
 msgid "ffi_prep_closure_loc"
-msgstr ""
+msgstr "ffi_prep_closure_loc"
 
 #: ports/unix/modffi.c:413
 msgid "Don't know how to pass object to native function"
-msgstr ""
+msgstr "Tidak tahu cara meloloskan objek ke fungsi native"
 
 #: ports/unix/modusocket.c:474
 #, c-format
 msgid "[addrinfo error %d]"
-msgstr ""
+msgstr "[addrinfo error %d]"
 
 #: py/argcheck.c:44
 msgid "function does not take keyword arguments"
-msgstr ""
+msgstr "fungsi tidak dapat mengambil argumen keyword"
 
 #: py/argcheck.c:54 py/bc.c:85 py/objnamedtuple.c:104
 #, c-format
 msgid "function takes %d positional arguments but %d were given"
-msgstr ""
+msgstr "fungsi mengambil posisi argumen %d tapi %d yang diberikan"
 
 #: py/argcheck.c:64
 #, c-format
 msgid "function missing %d required positional arguments"
-msgstr ""
+msgstr "fungsi kehilangan %d argumen posisi yang dibutuhkan"
 
 #: py/argcheck.c:72
 #, c-format
 msgid "function expected at most %d arguments, got %d"
-msgstr ""
+msgstr "fungsi diharapkan setidaknya %d argumen, hanya mendapatkan %d"
 
 #: py/argcheck.c:97
 msgid "'%q' argument required"
-msgstr ""
+msgstr "'%q' argumen dibutuhkan"
 
 #: py/argcheck.c:122
 msgid "extra positional arguments given"
-msgstr ""
+msgstr "argumen posisi ekstra telah diberikan"
 
 #: py/argcheck.c:130
 msgid "extra keyword arguments given"
-msgstr ""
+msgstr "argumen keyword ekstra telah diberikan"
 
 #: py/argcheck.c:142
 msgid "argument num/types mismatch"
-msgstr ""
+msgstr "argumen num/types tidak cocok"
 
 #: py/argcheck.c:147
 msgid "keyword argument(s) not yet implemented - use normal args instead"
-msgstr ""
+msgstr "argumen keyword belum diimplementasi - gunakan args normal"
 
 #: py/bc.c:88 py/objnamedtuple.c:108
 msgid "%q() takes %d positional arguments but %d were given"
-msgstr ""
+msgstr "%q() mengambil posisi argumen %d tapi %d yang diberikan"
 
 #: py/bc.c:197 py/bc.c:215
 msgid "unexpected keyword argument"
-msgstr ""
+msgstr "argumen keyword tidak diharapkan"
 
 #: py/bc.c:199
 msgid "keywords must be strings"
-msgstr ""
+msgstr "keyword harus berupa string"
 
 #: py/bc.c:206 py/objnamedtuple.c:138
 msgid "function got multiple values for argument '%q'"
-msgstr ""
+msgstr "fungsi mendapatkan nilai ganda untuk argumen '%q'"
 
 #: py/bc.c:218 py/objnamedtuple.c:130
 msgid "unexpected keyword argument '%q'"
-msgstr ""
+msgstr "keyword argumen '%q' tidak diharapkan"
 
 #: py/bc.c:244
 #, c-format
 msgid "function missing required positional argument #%d"
-msgstr ""
+msgstr "fungsi kehilangan argumen posisi #%d yang dibutuhkan"
 
 #: py/bc.c:260
 msgid "function missing required keyword argument '%q'"
-msgstr ""
+msgstr "fungsi kehilangan argumen keyword '%q' yang dibutuhkan"
 
 #: py/bc.c:269
 msgid "function missing keyword-only argument"
-msgstr ""
+msgstr "fungsi kehilangan argumen keyword-only"
 
 #: py/binary.c:112
 msgid "bad typecode"
-msgstr ""
+msgstr "typecode buruk"
 
 #: py/builtinevex.c:99
 msgid "bad compile mode"
-msgstr ""
+msgstr "mode compile buruk"
 
 #: py/builtinhelp.c:137
 msgid "Plus any modules on the filesystem\n"
-msgstr ""
+msgstr "Tambahkan module apapun pada filesystem\n"
 
 #: py/builtinhelp.c:183
 #, c-format
@@ -955,215 +955,220 @@ msgid ""
 "\n"
 "To list built-in modules please do `help(\"modules\")`.\n"
 msgstr ""
+"Selamat datang ke Adafruit CircuitPython %s!\n"
+"\n"
+"Silahkan kunjungi learn.adafruit.com/category/circuitpython untuk panduan project.\n"
+"\n"
+"Untuk menampilkan modul built-in silahkan ketik `help(\"modules\")`.\n"
 
 #: py/builtinimport.c:336
 msgid "cannot perform relative import"
-msgstr ""
+msgstr "tidak dapat melakukan relative import"
 
 #: py/builtinimport.c:420 py/builtinimport.c:532
 msgid "module not found"
-msgstr ""
+msgstr "modul tidak ditemukan"
 
 #: py/builtinimport.c:423 py/builtinimport.c:535
 msgid "no module named '%q'"
-msgstr ""
+msgstr "tidak ada modul yang bernama '%q'"
 
 #: py/builtinimport.c:510
 msgid "relative import"
-msgstr ""
+msgstr "relative import"
 
 #: py/compile.c:397 py/compile.c:542
 msgid "can't assign to expression"
-msgstr ""
+msgstr "tidak dapat menetapkan ke ekspresi"
 
 #: py/compile.c:416
 msgid "multiple *x in assignment"
-msgstr ""
+msgstr "perkalian *x dalam assignment"
 
 #: py/compile.c:642
 msgid "non-default argument follows default argument"
-msgstr ""
+msgstr "argumen non-default mengikuti argumen standar(default)"
 
 #: py/compile.c:771 py/compile.c:789
 msgid "invalid micropython decorator"
-msgstr ""
+msgstr "micropython decorator tidak valid"
 
 #: py/compile.c:943
 msgid "can't delete expression"
-msgstr ""
+msgstr "tidak bisa menghapus ekspresi"
 
 #: py/compile.c:955
 msgid "'break' outside loop"
-msgstr ""
+msgstr "'break' diluar loop"
 
 #: py/compile.c:958
 msgid "'continue' outside loop"
-msgstr ""
+msgstr "'continue' diluar loop"
 
 #: py/compile.c:969
 msgid "'return' outside function"
-msgstr ""
+msgstr "'return' diluar fungsi"
 
 #: py/compile.c:1169
 msgid "identifier redefined as global"
-msgstr ""
+msgstr "identifier didefinisi ulang sebagai global"
 
 #: py/compile.c:1185
 msgid "no binding for nonlocal found"
-msgstr ""
+msgstr "tidak ada ikatan/bind pada temuan nonlocal"
 
 #: py/compile.c:1188
 msgid "identifier redefined as nonlocal"
-msgstr ""
+msgstr "identifier didefinisi ulang sebagai nonlocal"
 
 #: py/compile.c:1197
 msgid "can't declare nonlocal in outer code"
-msgstr ""
+msgstr "tidak dapat mendeklarasikan nonlocal diluar jangkauan kode"
 
 #: py/compile.c:1542
 msgid "default 'except' must be last"
-msgstr ""
+msgstr "'except' standar harus terakhir"
 
 #: py/compile.c:2095
 msgid "*x must be assignment target"
-msgstr ""
+msgstr "*x harus menjadi target assignment"
 
 #: py/compile.c:2193
 msgid "super() can't find self"
-msgstr ""
+msgstr "super() tidak dapat menemukan dirinya sendiri"
 
 #: py/compile.c:2256
 msgid "can't have multiple *x"
-msgstr ""
+msgstr "tidak bisa memiliki *x ganda"
 
 #: py/compile.c:2263
 msgid "can't have multiple **x"
-msgstr ""
+msgstr "tidak bisa memiliki **x ganda"
 
 #: py/compile.c:2271
 msgid "LHS of keyword arg must be an id"
-msgstr ""
+msgstr "LHS dari keyword arg harus menjadi sebuah id"
 
 #: py/compile.c:2287
 msgid "non-keyword arg after */**"
-msgstr ""
+msgstr "non-keyword arg setelah */**"
 
 #: py/compile.c:2291
 msgid "non-keyword arg after keyword arg"
-msgstr ""
+msgstr "non-keyword arg setelah keyword arg"
 
 #: py/compile.c:2463 py/compile.c:2473 py/compile.c:2712 py/compile.c:2742
 #: py/parse.c:1176
 msgid "invalid syntax"
-msgstr ""
+msgstr "syntax tidak valid"
 
 #: py/compile.c:2465
 msgid "expecting key:value for dict"
-msgstr ""
+msgstr "key:value diharapkan untuk dict"
 
 #: py/compile.c:2475
 msgid "expecting just a value for set"
-msgstr ""
+msgstr "hanya mengharapkan sebuah nilai (value) untuk set"
 
 #: py/compile.c:2600
 msgid "'yield' outside function"
-msgstr ""
+msgstr "'yield' diluar fungsi"
 
 #: py/compile.c:2619
 msgid "'await' outside function"
-msgstr ""
+msgstr "'await' diluar fungsi"
 
 #: py/compile.c:2774
 msgid "name reused for argument"
-msgstr ""
+msgstr "nama digunakan kembali untuk argumen"
 
 #: py/compile.c:2827
 msgid "parameter annotation must be an identifier"
-msgstr ""
+msgstr "anotasi parameter haruse sebuah identifier"
 
 #: py/compile.c:2969 py/compile.c:3137
 msgid "return annotation must be an identifier"
-msgstr ""
+msgstr "anotasi return harus sebuah identifier"
 
 #: py/compile.c:3097
 msgid "inline assembler must be a function"
-msgstr ""
+msgstr "inline assembler harus sebuah fungsi"
 
 #: py/compile.c:3134
 msgid "unknown type"
-msgstr ""
+msgstr "tipe tidak diketahui"
 
 #: py/compile.c:3154
 msgid "expecting an assembler instruction"
-msgstr ""
+msgstr "sebuah instruksi assembler diharapkan"
 
 #: py/compile.c:3184
 msgid "'label' requires 1 argument"
-msgstr ""
+msgstr "'label' membutuhkan 1 argumen"
 
 #: py/compile.c:3190
 msgid "label redefined"
-msgstr ""
+msgstr "label didefinis ulang"
 
 #: py/compile.c:3196
 msgid "'align' requires 1 argument"
-msgstr ""
+msgstr "'align' membutuhkan 1 argumen"
 
 #: py/compile.c:3205
 msgid "'data' requires at least 2 arguments"
-msgstr ""
+msgstr "'data' membutuhkan setidaknya 2 argumen"
 
 #: py/compile.c:3212
 msgid "'data' requires integer arguments"
-msgstr ""
+msgstr "'data' membutuhkan argumen integer"
 
 #: py/emitinlinethumb.c:102
 msgid "can only have up to 4 parameters to Thumb assembly"
-msgstr ""
+msgstr "hanya mampu memiliki hingga 4 parameter untuk Thumb assembly"
 
 #: py/emitinlinethumb.c:107 py/emitinlinethumb.c:112
 msgid "parameters must be registers in sequence r0 to r3"
-msgstr ""
+msgstr "parameter harus menjadi register dalam urutan r0 sampai r3"
 
 #: py/emitinlinethumb.c:188 py/emitinlinethumb.c:230
 #, c-format
 msgid "'%s' expects at most r%d"
-msgstr ""
+msgstr "'%s' mengharapkan setidaknya r%d"
 
 #: py/emitinlinethumb.c:197 py/emitinlinextensa.c:162
 #, c-format
 msgid "'%s' expects a register"
-msgstr ""
+msgstr "'%s' mengharapkan sebuah register"
 
 #: py/emitinlinethumb.c:211
 #, c-format
 msgid "'%s' expects a special register"
-msgstr ""
+msgstr "'%s' mengharapkan sebuah register spesial"
 
 #: py/emitinlinethumb.c:239
 #, c-format
 msgid "'%s' expects an FPU register"
-msgstr ""
+msgstr "'%s' mengharapkan sebuah FPU register"
 
 #: py/emitinlinethumb.c:292
 #, c-format
 msgid "'%s' expects {r0, r1, ...}"
-msgstr ""
+msgstr "'%s' mengharapkan {r0, r1, ...}"
 
 #: py/emitinlinethumb.c:299 py/emitinlinextensa.c:169
 #, c-format
 msgid "'%s' expects an integer"
-msgstr ""
+msgstr "'%s' mengharapkan integer"
 
 #: py/emitinlinethumb.c:304
 #, c-format
 msgid "'%s' integer 0x%x does not fit in mask 0x%x"
-msgstr ""
+msgstr "'%s' integer 0x%x tidak cukup didalam mask 0x%x"
 
 #: py/emitinlinethumb.c:328
 #, c-format
 msgid "'%s' expects an address of the form [a, b]"
-msgstr ""
+msgstr "'%s' mengharapkan sebuah alamat dengan bentuk [a, b]"
 
 #: py/emitinlinethumb.c:334 py/emitinlinextensa.c:182
 #, c-format
