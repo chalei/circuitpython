@@ -245,7 +245,7 @@ msgstr "Tidak ada standar bus SPI"
 
 #: ports/atmel-samd/board_busses.c:112 ports/nrf/board_busses.c:91
 msgid "No default UART bus"
-msgstr Tidak ada standar bus UART""
+msgstr "Tidak ada standar bus UART"
 
 #: ports/atmel-samd/common-hal/analogio/AnalogIn.c:63
 #: ports/nrf/common-hal/analogio/AnalogIn.c:39
