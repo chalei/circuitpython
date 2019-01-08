@@ -197,7 +197,7 @@ msgstr "Sepertinya inti kode CircuitPython kita crash dengan sangat keras. Ups!\
 
 #: main.c:263
 msgid "Please file an issue here with the contents of your CIRCUITPY drive:\n"
-msgstr "Silahkan taruh masalah disini dengan isi dari CIRCUITPY drive: anda \n""
+msgstr "Silahkan taruh masalah disini dengan isi dari CIRCUITPY drive: anda \n"
 
 #: main.c:266
 msgid ""
