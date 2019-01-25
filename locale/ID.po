@@ -1212,290 +1212,290 @@ msgstr "'%s' mengharapkan sebuah alamat dengan bentuk [a, b]"
 #: py/emitinlinethumb.c:334 py/emitinlinextensa.c:182
 #, c-format
 msgid "'%s' expects a label"
-msgstr ""
+msgstr "'%s' mengharapkan sebuah label"
 
 #: py/emitinlinethumb.c:345 py/emitinlinextensa.c:193
 msgid "label '%q' not defined"
-msgstr ""
+msgstr "label '%q' tidak didefinisikan"
 
 #: py/emitinlinethumb.c:806
 #, c-format
 msgid "unsupported Thumb instruction '%s' with %d arguments"
-msgstr ""
+msgstr "Instruksi Thumb '%s' tidak mendukung dengan argumen %d"
 
 #: py/emitinlinethumb.c:810
 msgid "branch not in range"
-msgstr ""
+msgstr "cabang tidak dalam jangkauan"
 
 #: py/emitinlinextensa.c:86
 msgid "can only have up to 4 parameters to Xtensa assembly"
-msgstr ""
+msgstr "hanya bisa memiliki hingga 4 paramater pada Xtensa assembly"
 
 #: py/emitinlinextensa.c:91 py/emitinlinextensa.c:96
 msgid "parameters must be registers in sequence a2 to a5"
-msgstr ""
+msgstr "paramater harus menjadi register dalam rangkaian a2 sampai a5"
 
 #: py/emitinlinextensa.c:174
 #, c-format
 msgid "'%s' integer %d is not within range %d..%d"
-msgstr ""
+msgstr "'%s' integer %d tidak dalam jangkauan %d..%d"
 
 #: py/emitinlinextensa.c:327
 #, c-format
 msgid "unsupported Xtensa instruction '%s' with %d arguments"
-msgstr ""
+msgstr "instruksi Xtensa '%s' tidak mendukung dengan argumen %d"
 
 #: py/emitnative.c:183
 msgid "unknown type '%q'"
-msgstr ""
+msgstr "tipe tidak diketahui '%q'"
 
 #: py/emitnative.c:260
 msgid "Viper functions don't currently support more than 4 arguments"
-msgstr ""
+msgstr "Fungsi Viper saat ini tidak mendukung lebih dari 4 argumen"
 
 #: py/emitnative.c:742
 msgid "conversion to object"
-msgstr ""
+msgstr "konversi ke objek"
 
 #: py/emitnative.c:921
 msgid "local '%q' used before type known"
-msgstr ""
+msgstr "lokal '%q' digunakan sebelum tipe diketahui"
 
 #: py/emitnative.c:1118 py/emitnative.c:1156
 msgid "can't load from '%q'"
-msgstr ""
+msgstr "tidak bisa memuat dari '%q'"
 
 #: py/emitnative.c:1128
 msgid "can't load with '%q' index"
-msgstr ""
+msgstr "tidak bisa memuat dengan '%q' index"
 
 #: py/emitnative.c:1188
 msgid "local '%q' has type '%q' but source is '%q'"
-msgstr ""
+msgstr "loka '%q' mempunyai tipe '%q' tapi sumber adalah '%q'"
 
 #: py/emitnative.c:1289 py/emitnative.c:1379
 msgid "can't store '%q'"
-msgstr ""
+msgstr "tidak bisa menyimpan '%q'"
 
 #: py/emitnative.c:1358 py/emitnative.c:1419
 msgid "can't store to '%q'"
-msgstr ""
+msgstr "tidak bisa menyimpan ke '%q'"
 
 #: py/emitnative.c:1369
 msgid "can't store with '%q' index"
-msgstr ""
+msgstr "tidak bisa menyimpan dengan '%q' index"
 
 #: py/emitnative.c:1540
 msgid "can't implicitly convert '%q' to 'bool'"
-msgstr ""
+msgstr "tidak mengkonversi secara implisit '%q' ke 'bool'"
 
 #: py/emitnative.c:1774
 msgid "unary op %q not implemented"
-msgstr ""
+msgstr "unary op %q tidak diimplementasi"
 
 #: py/emitnative.c:1930
 msgid "binary op %q not implemented"
-msgstr ""
+msgstr "binary op %q tidak diimplementasi"
 
 #: py/emitnative.c:1951
 msgid "can't do binary op between '%q' and '%q'"
-msgstr ""
+msgstr "tidak bisa melakukan binary op antara '%q' dan '%q'"
 
 #: py/emitnative.c:2126
 msgid "casting"
-msgstr ""
+msgstr "menuangkan"
 
 #: py/emitnative.c:2173
 msgid "return expected '%q' but got '%q'"
-msgstr ""
+msgstr "return mengharapkan '%q' namun mendapatkan '%q'"
 
 #: py/emitnative.c:2191
 msgid "must raise an object"
-msgstr ""
+msgstr "harus mengajukan sebuah objek"
 
 #: py/emitnative.c:2201
 msgid "native yield"
-msgstr ""
+msgstr "yield native"
 
 #: py/lexer.c:345
 msgid "unicode name escapes"
-msgstr ""
+msgstr "nama unicode lolos"
 
 #: py/modbuiltins.c:162
 msgid "chr() arg not in range(0x110000)"
-msgstr ""
+msgstr "chr() arg tidak dalam jangkauan(0x110000)"
 
 #: py/modbuiltins.c:171
 msgid "chr() arg not in range(256)"
-msgstr ""
+msgstr "chr() arg tidak dalam jangkauan(256)"
 
 #: py/modbuiltins.c:285
 msgid "arg is an empty sequence"
-msgstr ""
+msgstr "arg adalah rangkaian kosong"
 
 #: py/modbuiltins.c:350
 msgid "ord expects a character"
-msgstr ""
+msgstr "ord mengharapkan sebuah karakter"
 
 #: py/modbuiltins.c:353
 #, c-format
 msgid "ord() expected a character, but string of length %d found"
-msgstr ""
+msgstr "ord() mengharapkan sebuah karakter, tapi string dengan panjang %d ditemukan"
 
 #: py/modbuiltins.c:363
 msgid "3-arg pow() not supported"
-msgstr ""
+msgstr "3-arg pow() tidak didukung"
 
 #: py/modbuiltins.c:517
 msgid "must use keyword argument for key function"
-msgstr ""
+msgstr "harus menggunakan argumen keyword argumen untuk key fungsi"
 
 #: py/modmath.c:41 shared-bindings/math/__init__.c:53
 msgid "math domain error"
-msgstr ""
+msgstr "domain matematika error"
 
 #: py/modmath.c:196 py/objfloat.c:270 py/objint_longlong.c:222
 #: py/objint_mpz.c:230 py/runtime.c:619 shared-bindings/math/__init__.c:346
 msgid "division by zero"
-msgstr ""
+msgstr "dibagi dengan nol"
 
 #: py/modmicropython.c:155
 msgid "schedule stack full"
-msgstr ""
+msgstr "jadwal stack penuh"
 
 #: py/modstruct.c:148 py/modstruct.c:156 py/modstruct.c:244 py/modstruct.c:254
 #: shared-bindings/struct/__init__.c:102 shared-bindings/struct/__init__.c:161
 #: shared-module/struct/__init__.c:128 shared-module/struct/__init__.c:183
 msgid "buffer too small"
-msgstr ""
+msgstr "buffer terlalu kecil"
 
 #: py/modthread.c:240
 msgid "expecting a dict for keyword args"
-msgstr ""
+msgstr "mengharapkan sebuah dict untuk keyword args"
 
 #: py/moduerrno.c:147 py/moduerrno.c:150
 msgid "Permission denied"
-msgstr ""
+msgstr "Akses ijin ditolak"
 
 #: py/moduerrno.c:148
 msgid "No such file/directory"
-msgstr ""
+msgstr "tidak ada file/directory"
 
 #: py/moduerrno.c:149
 msgid "Input/output error"
-msgstr ""
+msgstr "Input/output error"
 
 #: py/moduerrno.c:151
 msgid "File exists"
-msgstr ""
+msgstr "File sudah ada"
 
 #: py/moduerrno.c:152
 msgid "Unsupported operation"
-msgstr ""
+msgstr "Operasi tidak didukung"
 
 #: py/moduerrno.c:153
 msgid "Invalid argument"
-msgstr ""
+msgstr "Argumen tidak valid"
 
 #: py/obj.c:92
 msgid "Traceback (most recent call last):\n"
-msgstr ""
+msgstr "Melacak ulang (panggilan terakhir):\n"
 
 #: py/obj.c:96
 msgid "  File \"%q\", line %d"
-msgstr ""
+msgstr " File \"%q\", baris %d"
 
 #: py/obj.c:98
 msgid "  File \"%q\""
-msgstr ""
+msgstr " File \"%q\""
 
 #: py/obj.c:102
 msgid ", in %q\n"
-msgstr ""
+msgstr ", pada %q\n"
 
 #: py/obj.c:259
 msgid "can't convert to int"
-msgstr ""
+msgstr "tidak bisa mengkonversi ke int"
 
 #: py/obj.c:262
 #, c-format
 msgid "can't convert %s to int"
-msgstr ""
+msgstr "tidak bisa mengkonversi %s ke int"
 
 #: py/obj.c:322
 msgid "can't convert to float"
-msgstr ""
+msgstr "tidak bisa mengkonversi ke float"
 
 #: py/obj.c:325
 #, c-format
 msgid "can't convert %s to float"
-msgstr ""
+msgstr "tidak bisa mengkonversi %s ke float"
 
 #: py/obj.c:355
 msgid "can't convert to complex"
-msgstr ""
+msgstr "tidak bisa mengkonversi ke complex"
 
 #: py/obj.c:358
 #, c-format
 msgid "can't convert %s to complex"
-msgstr ""
+msgstr "tidak bisa mengkonversi %s ke complex"
 
 #: py/obj.c:373
 msgid "expected tuple/list"
-msgstr ""
+msgstr "mengharapkan tuple/list"
 
 #: py/obj.c:376
 #, c-format
 msgid "object '%s' is not a tuple or list"
-msgstr ""
+msgstr "objek '%s' bukan sebuah tuple atau list"
 
 #: py/obj.c:387
 msgid "tuple/list has wrong length"
-msgstr ""
+msgstr "tuple/list mempunyai panjang yang salah"
 
 #: py/obj.c:389
 #, c-format
 msgid "requested length %d but object has length %d"
-msgstr ""
+msgstr "mengajukan panjang %d namun objek mempunyai panjang %d"
 
 #: py/obj.c:402
 msgid "indices must be integers"
-msgstr ""
+msgstr "index harus integer"
 
 #: py/obj.c:405
 msgid "%q indices must be integers, not %s"
-msgstr ""
+msgstr "%q index harus integer, bukan %s"
 
 #: py/obj.c:425
 msgid "%q index out of range"
-msgstr ""
+msgstr "%q index keluar dari jangkauan"
 
 #: py/obj.c:457
 msgid "object has no len"
-msgstr ""
+msgstr "objek tidak mempunyai len"
 
 #: py/obj.c:460
 #, c-format
 msgid "object of type '%s' has no len()"
-msgstr ""
+msgstr "objek tipe '%s' tidak mempunyai len()"
 
 #: py/obj.c:500
 msgid "object does not support item deletion"
-msgstr ""
+msgstr "objek tidak mendukung penghapusan barang"
 
 #: py/obj.c:503
 #, c-format
 msgid "'%s' object does not support item deletion"
-msgstr ""
+msgstr "'%s' objek tidak mendukung penghapusan baran"
 
 #: py/obj.c:507
 msgid "object is not subscriptable"
-msgstr ""
+msgstr "objek tidak dapat menjadi subskrip"
 
 #: py/obj.c:510
 #, c-format
 msgid "'%s' object is not subscriptable"
-msgstr ""
+msgstr "'%s' objek tidak dapat menjadi subskrip"
 
 #: py/obj.c:514
 msgid "object does not support item assignment"
